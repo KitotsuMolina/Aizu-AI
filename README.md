@@ -2,8 +2,7 @@
 
 Un asistente de chatbot para GNOME, diseñado para una integración simple y rápida con tu instancia local de Ollama.
 
-![Captura de pantalla de Aizu AI](ruta/a/tu/captura_de_pantalla.png)
-*(Recomendación: Haz una captura de pantalla de tu extensión funcionando y reemplaza la línea de arriba)*
+![Captura de pantalla de Aizu AI](./img/captura_de_pantalla.png)
 
 ## Acerca del Proyecto
 
