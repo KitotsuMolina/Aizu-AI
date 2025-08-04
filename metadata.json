@@ -1,0 +1,8 @@
+{
+  "name": "Aizu AI",
+  "description": "Integracion con ia local ollama",
+  "uuid": "aizuai@kitotsu",
+  "shell-version": [
+    "46"
+  ]
+}

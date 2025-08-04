@@ -1,0 +1,74 @@
+/* Add your custom extension styling here */
+.icon-aizu {
+    background-image: url("assets/icon-gato-blanco.png"); /* UI icons by Flaticon: https://www.flaticon.com/uicons */
+    mask-image: url("assets/icon-gato-blanco.png");
+    background-size: 15px;
+    width: 30px;
+    height: 30px;
+    padding: 17px;
+    filter: brightness(2) contrast(200%);
+}
+/* --- Contenedor Principal --- */
+.aizuai-scroll-view {
+    /* Define el tamaño del área de chat */
+    min-height: 300px;
+    width: 380px;
+    margin: 5px;
+}
+
+/* --- Campo de Entrada de Texto --- */
+.aizuai-entry {
+    /* Estilo moderno y redondeado */
+    border-radius: 18px;
+    padding: 6px 12px;
+    margin: 5px 0px 5px 5px; /* Margen para separarlo de los botones */
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.aizuai-entry:focus {
+    border-color: #3584e4; /* Color de borde al seleccionar */
+}
+
+/* --- Botón de "Nueva Conversación" --- */
+.aizuai-icon-button {
+    border-radius: 18px;
+    padding: 6px;
+    margin: 5px;
+}
+
+.aizuai-icon-button:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+/* --- Burbujas de Mensaje --- */
+.aizuai-usermessage, .aizuai-aimessage {
+    padding: 8px 12px;
+    border-radius: 18px;
+    height: max-content;
+    max-width: 300px; /* Evita que las burbujas sean demasiado anchas */
+    overflow-y: scroll ;
+}
+
+/* Estilo para la burbuja del usuario (azul) */
+.aizuai-usermessage {
+    background-color: #3584e4; /* Color azul de GNOME */
+    color: white;
+}
+
+/* Estilo para la burbuja de la IA (gris) */
+.aizuai-aimessage {
+    background-color: #f5f5f5;
+    color: #202020;
+}
+
+/* Contenedor de cada línea de mensaje (para alineación) */
+.aizuai-message-box {
+    margin-top: 10px;
+}
+.aizuai-icon-button-stop{
+    border-radius: 18px;
+    padding: 6px;
+    margin: 5px;
+    width: 1em;
+    height: 1em;
+}
